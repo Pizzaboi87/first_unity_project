@@ -2,3 +2,10 @@
 /Logs
 /Temp
 /UserSettings
+/.vs
+/obj
+.vsconfig
+.vscode
+*.csproj
+*.cache
+delivery_driver.sln
