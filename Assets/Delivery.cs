@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Delivery : MonoBehaviour
 {
-    [SerializeField] Color32 noPackageColor = new Color32(45, 121, 245, 255);
-    [SerializeField] Color32 hasPackageColor = new Color32(52, 200, 75, 255);
+    [SerializeField] Color32 noPackageColor = new Color32(45, 155, 245, 255);
+    [SerializeField] Color32 hasPackageColor = new Color32(255, 0, 0, 255);
 
     bool hasPackage = false;
 
