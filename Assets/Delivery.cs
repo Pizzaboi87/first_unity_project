@@ -22,7 +22,7 @@ public class Delivery : MonoBehaviour
         Debug.Log("Ouch!");
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Package" && !hasPackage)
         {

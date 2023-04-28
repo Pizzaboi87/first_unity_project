@@ -17,7 +17,7 @@ public class Driver : MonoBehaviour
         transform.Translate(0, moveAmount, 0);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         moveSpeed = slowSpeed;
     }
