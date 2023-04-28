@@ -31,6 +31,7 @@ public class Delivery : MonoBehaviour
             Destroy(other.gameObject);
             spriteRenderer.color = hasPackageColor;
         }
+
         else if (other.tag == "Customer" && hasPackage)
         {
             Debug.Log("Package delivered.");
